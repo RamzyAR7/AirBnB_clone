@@ -35,7 +35,7 @@ class TestHBNBCommand(unittest.TestCase):
         except IOError:
             pass
         storage.reload()
-  
+
     def test_empty_line(self):
         with patch("sys.stdout", new=StringIO()) as output:
             self.assertFalse(HBNBCommand().onecmd(""))

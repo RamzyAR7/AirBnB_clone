@@ -1,6 +1,6 @@
 # AirBnB clone - The console
 
-![AirBnB Logo](https://github.com/Youssef-Hassane/AirBnB_clone/blob/master/images/65f4a1dd9c51265f49d0.png)
+![AirBnB Logo](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/65f4a1dd9c51265f49d0.png)
 
 This project is part of the AirBnB clone series and focuses on implementing the BaseModel class and its functionalities. In this task, we are working on creating instances of the BaseModel class from dictionary representations.
 
@@ -63,5 +63,5 @@ EOF  help  quit
 
 | **Ahmed Ramzy (AKA Ramzy)** | **Mahmoud Metwalli (AKA Metwalli)** |
 |---|---|
-| ![Ahmed Ramzy](https://github.com/Youssef-Hassane/Screenshot/blob/main/img.png) | ![Mahmoud Metwalli](https://github.com/Youssef-Hassane/Screenshot/blob/main/Screenshot%202023-11-11%20at%2012.42.16%20AM-fotor-2023111104736.png) |
+| ![Ahmed Ramzy](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/photo_2024-01-03_20-07-11-Photoroom.jpg) | ![Mahmoud Metwalli](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/141389922-Photoroom.jpg)|
 

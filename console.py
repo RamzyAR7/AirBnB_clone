@@ -2,6 +2,7 @@
 """
 this module is for console
 """
+import re
 import cmd
 import json
 from models import storage
@@ -160,19 +161,23 @@ class HBNBCommand(cmd.Cmd):
 
     def default(self, line):
         """handles class methods"""
-        args = line.split(".")
-        args_2 = args[1].split("(")
-        args_3 = args_2[1].split(", ")
-        args_4 = args_3[len(args_3) - 1].split(")")
-        final_list = [args[0], args_2[0]]
-        for i in range(0, len(args_3) - 1):
-            final_list.append(args_3[i])
-        final_list.append(args_4[0])
-        if final_list[2] == "":
-            new_line = final_list[0]
+        parts = re.findall("(.*)[.](.*)[(](.*)[)]", line)
+        if parts:
+            args = line.split(".")
+            args_2 = args[1].split("(")
+            args_3 = args_2[1].split(", ")
+            args_4 = args_3[len(args_3) - 1].split(")")
+            final_list = [args[0], args_2[0]]
+            for i in range(0, len(args_3) - 1):
+                final_list.append(args_3[i])
+            final_list.append(args_4[0])
+            if final_list[2] == "":
+                new_line = final_list[0]
+            else:
+                new_line = final_list[0] + " " + " ".join(final_list[2:])
+            eval(f"self.do_{final_list[1]}('{new_line}')")
         else:
-            new_line = final_list[0] + " " + " ".join(final_list[2:])
-        eval(f"self.do_{final_list[1]}('{new_line}')")
+            print("***COMMAND NOT FOUND****\nCommand list:\n-create\n-update\n-show\n-destroy\n*****")
 
     def emptyline(self):
         """Do nothing on empty line."""

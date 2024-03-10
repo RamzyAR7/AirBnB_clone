@@ -69,6 +69,9 @@ class TestFileStorage_methods(unittest.TestCase):
         with self.assertRaises(TypeError):
             models.storage.all(None)
 
+    def test_has_attr(self):
+        self.assertFalse(hasattr(FileStorage, '__file_path'))
+
     def test_new(self):
         bm = BaseModel()
         us = User()

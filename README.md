@@ -64,4 +64,3 @@ EOF  help  quit
 | **Ahmed Ramzy (AKA Ramzy)** | **Mahmoud Metwalli (AKA Metwalli)** |
 |---|---|
 | ![Ahmed Ramzy](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/photo_2024-01-03_20-07-11-Photoroom.jpg) | ![Mahmoud Metwalli](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/141389922-Photoroom.jpg)|
-

@@ -66,4 +66,3 @@ EOF  help  quit
 |[@Ahmed Ramzy](https://www.github.com/RamzyAR7) | [@Mahmoud Metwalli](https://github.com/MahmoudMetwalli)|
 | ![Ahmed Ramzy](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/image%20(1).png) | ![Mahmoud Metwalli](https://github.com/RamzyAR7/AirBnB_clone/blob/main/Images/image%20(2).png)|
 
-"""""""""""""""""""""""""""

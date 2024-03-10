@@ -177,7 +177,8 @@ class HBNBCommand(cmd.Cmd):
                 new_line = final_list[0] + " " + " ".join(final_list[2:])
             eval(f"self.do_{final_list[1]}('{new_line}')")
         else:
-            print("***COMMAND NOT FOUND****\nCommand list:\n-create\n-update\n-show\n-destroy\n*****")
+            print("***COMMAND NOT FOUND****\nCommand list:\
+                  \n-create\n-update\n-show\n-destroy\n*****")
 
     def emptyline(self):
         """Do nothing on empty line."""

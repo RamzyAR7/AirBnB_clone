@@ -1,14 +1,15 @@
 header {
     background-color: white;
-    height: 60px;
+    height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    position: absolute;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
     top: 0;
 }
-div.imgs{
-    background-image: url(../images/logo.png);
-    width: 142px;
-    height: 60px;
-    left: 20px;
-}
+
+
+
+
+

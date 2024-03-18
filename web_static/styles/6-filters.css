@@ -82,13 +82,13 @@ button:hover {
     background-color: #FAFAFA;
     border: 1px solid  #DDDDDD;
     border-radius: 4px;
+    z-index: 1000;
 }
 
 .li-pop {
     height: 100%;
     width: 100%;
     padding: 30px;
-
 }
 
 .li-pop li { 
